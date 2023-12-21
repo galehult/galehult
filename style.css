@@ -18,28 +18,28 @@
   top: 0;
 }
 
+.motorcycles {
+    padding-left: 50px;
+    display: inline-block;
+}
+
 .dropbtn {
     background-color: #04aa6d;
     color: white;
     padding: 16px;
     font-size: 16px;
-    border: none;
+    border: 1px;
+    border-style:  solid;
+    border-color: black;
 }
 
 .motorcycle-promos {
+    padding-left: 5px;
     position: absolute;
     display: inline-block;
-    background-color: #04aa6d;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
 }
 
-.motorcycles {
-    padding-left: 50px;
-    display: inline-block;
-}
+
 
 .motorcycles-content {
     display: none;

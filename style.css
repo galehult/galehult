@@ -1,26 +1,30 @@
 .top{
     background-color: #313132 ;
-    width: 100000px;
+    width: 1400px;
     height: 45px;
     margin-top: -16px;
     margin-left: auto;
     margin-right: auto;
     margin-left: -99px;
+    margin-bottom: 10px;
 }
 
 .vl {
     border-left: 50px solid green;
   height: 683px;
-  width: 1000000px;
+  border-width: 100px;
   position: absolute;
   left: 50%;
   margin-left: -683px;
+  margin-right: 10px;
   top: 0;
 }
 
 .motorcycles {
     padding-left: 50px;
+    position: relative;
     display: inline-block;
+    margin-left: 40px;
 }
 
 .dropbtn {
@@ -39,8 +43,6 @@
     display: inline-block;
 }
 
-
-
 .motorcycles-content {
     display: none;
     position: absolute;
@@ -57,19 +59,28 @@
     display: block;
 }
 
+.motorcycles-content a:hover {background-color: #ddd;}
+
+.motorcycles:hover .motorcycles {display: block;}
+
+.motorcycles:hover .dropbtn {background-color: #3e8e41;}
 
 .JIO {
     padding-left: 50px;
+    margin-left: 40px;
 }
 
 .cheska {
     padding-left: 50px;
+    margin-left: 40px;
 }
 
 .jerick {
     padding-left: 50px;
+    margin-left: 40px;
 }
 
 .jeni {
     padding-left: 50px;
+    margin-left: 40px;
 }

@@ -1,0 +1,15 @@
+GITHUB
+git init
+git add .
+git commit -m "NAME"
+git branch -M main
+git remote add origin https
+git push -u origin main
+
+git config --global user.email "email"
+git config --global user.name "gitname"
+
+git init
+git add .
+git commit -m "Test Web"
+git push

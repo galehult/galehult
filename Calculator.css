@@ -1,8 +1,8 @@
 .topCalc{
     position: fixed;
-    background-color: yellow ;
+    background-color: #a0ecd0;
     width: 1529px;
-    height: 90px;
+    height: 94px;
     margin-top: -27px;
     margin-left: auto;
     margin-right: auto;
@@ -16,123 +16,135 @@
     padding-left: 50px;
     position: relative;
     display: inline-block;
-    margin-top: 45px;
+    margin-top: 51px;
     margin-left: 50px;
 }
-  
-  .calculator {
-    padding: 20px;
-    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 1px;
-  }
-  
-  .input {
-    border: 1px solid #ddd;
-    border-radius: 1px;
-    height: 60px;
-    padding-right: 15px;
-    padding-top: 10px;
-    text-align: right;
-    margin-right: 6px;
-    font-size: 2.5rem;
-    overflow-x: auto;
-    transition: all .2s ease-in-out;
-  }
-  
-  .input:hover {
-    border: 1px solid #bbb;
-    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-  }
-  
-  .buttons {
-    background-color: #04aa6d;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: 1px;
-    border-style:  solid;
-    border-color: black;
-    transition-duration: 0.4s;
-  }
-  
-  /*.operators {}*/
-  
-  .operators div {
-    display: inline-block;
-    border: 1px solid #bbb;
-    border-radius: 1px;
-    width: 80px;
-    text-align: center;
-    padding: 10px;
-    margin: 20px 4px 10px 0;
-    cursor: pointer;
-    background-color: #ddd;
-    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-  }
-  
-  .operators div:hover {
-    background-color: #ddd;
-    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    border-color: #aaa;
-  }
-  
-  .operators div:active {
-    font-weight: bold;
-  }
-  
-  .leftPanel {
-    display: inline-block;
-  }
-  
-  .numbers div {
-    display: inline-block;
-    border: 1px solid #ddd;
-    border-radius: 1px;
-    width: 80px;
-    text-align: center;
-    padding: 10px;
-    margin: 10px 4px 10px 0;
-    cursor: pointer;
-    background-color: #f9f9f9;
-    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-  }
-  
-  .numbers div:hover {
-    background-color: #f1f1f1;
-    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    border-color: #bbb;
-  }
-  
-  .numbers div:active {
-    font-weight: bold;
-  }
-  
-  div.equal {
-    display: inline-block;
-    border: 1px solid #3079ED;
-    border-radius: 1px;
-    width: 17%;
-    text-align: center;
-    padding: 127px 10px;
-    margin: 10px 6px 10px 0;
-    vertical-align: top;
-    cursor: pointer;
-    color: #FFF;
-    background-color: #4d90fe;
-    transition: all .2s ease-in-out;
-  }
-  
-  div.equal:hover {
-    background-color: #307CF9;
-    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    border-color: #1857BB;
-  }
-  
-  div.equal:active {
-    font-weight: bold;
-  }
+
+.motorcycles {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 50px;
+  opacity:  1;
+}
+
+
+.motorcycles-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0);
+  opacity:  1;
+}
+
+.motorcycles-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  opacity:  1;
+}
+
+
+.NR {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.NR-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0);
+  z-index: 1;
+}
+
+.NR-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropbtn {
+  background-color: #88bb92;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: 1px;
+  border-style:  solid;
+  border-color: black;
+}
+
+.button{
+  background-color: #88bb92;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: 1px;
+  border-style:  solid;
+  border-color: black;
+  transition-duration: 0.4s;
+}
+
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0), 0 17px 50px 0 rgba(0,0,0);
+}
+
+.motorcycle-promos {
+  margin-top: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.JeniCalculator {
+  margin-top: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.motorcycles:hover .motorcycles-content{display: block;}
+
+.motorcycles-content a:hover {background-color: #ddd;}
+
+.motorcycles:hover .dropbtn {background-color: #88bb92;}
+
+.NR:hover .NR-content{display: block;}
+
+.NR-content a:hover {background-color: #ddd;}
+
+.NR:hover .dropbtn {background-color: #88bb92;}
+
+.show {display:block;}
+
+.calculator {
+  padding: 20px;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0);
+  border-radius: 1px;
+}
+
+.input {
+  border: 1px solid #a0ecd0;
+  border-radius: 1px;
+  height: 60px;
+  /* size: 300px; */
+  padding-right: 15px;
+  padding-top: 10px;
+  text-align: right;
+  margin-right: 6px;
+  font-size: 2.5rem;
+  overflow-x: auto;
+  transition: all .2s ease-in-out;
+}
+
+.input:hover {
+  border: 1px solid #bbb;
+  -webkit-box-shadow: inset 0px 1px 4px rgba(0, 0, 0);
+  box-shadow: inset 0px 1px 4px rgba(0, 0, 0);
+}

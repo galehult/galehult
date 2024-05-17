@@ -1,0 +1,25 @@
+*{
+    border-top: none;
+}
+
+.centering{
+    height: 200px;
+    position: relative;
+    border: 3px #88bb91;
+}
+
+.button{
+    background-color: #88bb91;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 16px;
+    font-size: 16px;
+    border: 1px;
+    border-style:  solid;
+    border-color: black;
+    transition-duration: 0.4s;
+}

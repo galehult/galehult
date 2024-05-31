@@ -23,3 +23,19 @@
     border-color: black;
     transition-duration: 0.4s;
 }
+
+.motorcycles-page {
+    position: relative;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 50px;
+    opacity:  1;
+}
+
+.calculator{
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+    opacity:  1;
+}

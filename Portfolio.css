@@ -3,9 +3,22 @@
 }
 
 .centering{
-    height: 200px;
-    position: relative;
+    /* height: 200px;
+    position: fixed;
     border: 3px #88bb91;
+    margin-top: -27px; */
+    position: fixed;
+    background-color: #a0ecd0  ;
+    width: 1529px;
+    height: 75px;
+    margin-top: -27px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: -99px;
+    margin-bottom: 10px;
+    border: green 1px solid;
+    border-top: none;
+    z-index: 100;
 }
 
 .button{
@@ -27,15 +40,15 @@
 .motorcycles-page {
     position: relative;
     display: inline-block;
-    margin-top: 200px;
-    margin-left: 50px;
+    margin-top: 150px;
+    margin-left: 600px;
     opacity:  1;
 }
 
 .calculator{
     position: relative;
     display: inline-block;
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-top: 250px;
+    margin-left: 500px;
     opacity:  1;
 }

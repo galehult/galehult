@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charles Motorcycle Shop</title>
+    <title>CIN Motorcycle Shop</title>
     <link rel = "stylesheet" href="style.css">
+    <link rel = "stylesheet" href="CIN.js">
 </head>
 <header>
     <div class="top">
@@ -41,12 +42,25 @@
 
 
     <div class="wrap">
-        <div class="search">
+        <input id="searchbar"
+               onkeyup="search_motorcycle()"
+               type="text" name="search"
+               placeholder="Seach Motorcycles...">
+            
+        <ul id="list">
+            <li class="Ducati">Ducati</li>
+            <li class="Honda">Honda</li>
+            <li class="Kawasaki">Kawasaki</li>
+            <li class="Royal Enfield">Royal Enfield</li>
+            <li class="Suzuki">Suzuki</li>
+            <li class="Yamaha">Yamaha</li>
+        </ul>
+        <!-- <div class="search">
             <input type="text" class="searchTerm" placeholder="What motorcycle are you looking for?">
                 <button type="submit" class="searchButton">
-                    <i class="fa fa-search"></i>
+                    <i class="fa fa-search"></i><img src="Images/magnifying.png">
                 </button>
-        </div>
+        </div> -->
     </div>
 </div>
 </header>

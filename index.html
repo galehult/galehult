@@ -40,41 +40,66 @@
             <a href="Portfolio.html"><button class="button">Return to Portfolio</button></a>
         </div>
 
-
     <div class="wrap">
         <input id="searchbar"
                onkeyup="search_motorcycle()"
                type="text" name="search"
-               placeholder="Seach Motorcycles...">
+               placeholder="&#x1F50D; Seach Motorcycles..."/>
             
-        <ul id="list">
-            <li class="Ducati">Ducati</li>
-            <li class="Honda">Honda</li>
-            <li class="Kawasaki">Kawasaki</li>
-            <li class="Royal Enfield">Royal Enfield</li>
-            <li class="Suzuki">Suzuki</li>
-            <li class="Yamaha">Yamaha</li>
-        </ul>
-        <!-- <div class="search">
-            <input type="text" class="searchTerm" placeholder="What motorcycle are you looking for?">
-                <button type="submit" class="searchButton">
-                    <i class="fa fa-search"></i><img src="Images/magnifying.png">
-                </button>
-        </div> -->
+        <datalist id="list">
+            <option value="Ducati">
+            <option value="Honda">
+            <option value="Kawasaki">
+            <option value="Royal Enfield">
+            <option value="Suzuki">
+            <option value="Yamaha">
+        </datalist>
     </div>
 </div>
 </header>
+
 <body>
-        <div class="BigText">
-            <h1>Search Motorcycles in Charles, Ian, Nancy Motorcycle Shop!</h1>
-        </div>
+<div class="Body">
+    <div class="BigText">
+        <h1>Search Motorcycles in Charles, Ian, Nancy Motorcycle Shop!</h1>
+    </div>
+    
     <div class="MediumText">
         <h1>Not sure what to buy? Let CIN Motorcycle Shop help you in searching your motorcycle brand or the body type you're interested in.</h1>
     </div>
-   </body>
+    
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Make')" id="defaultOpen">Make</button>
+        <button class="tablinks" onclick="openCity(event, 'Body_Type')">Body Type</button>
+        <button class="tablinks" onclick="openCity(event, 'Popular_Motorcycles')">Popular Motorcycles</button>
+    </div>
+    
+    <div id="Make" class="tabcontent">
+        <div class="MediumText">
+            <h3>Sure ka?</h3>
+            <p>Wala pang laman!</p>
+        </div>
+    </div>
+
+    <div id="Body_Type" class="tabcontent">
+        <div class="MediumText">
+            <h3>Talaga ba?</h3>
+            <p>Wala pang laman din!</p>
+        </div>
+    </div>
+    
+    <div id="Popular_Motorcycles" class="tabcontent">
+        <div class="MediumText">
+            <h3>Weh di nga?</h3>
+            <p>Wala din laman ito!</p>
+        </div>
+    </div>
+</div>
+</body>
+
 <footer>
     <div class="JIO">
-        <h1><a href="https://www.facebook.com/chrlsfrncsj" target="_blank">FACEBOOK</a> NI CHARLES!</h1></a>
+        <h1><a href="https://www.facebook.com/chrlsfrncsj" target="_blank">FACEBOOK</a> NI CHARLES!</h1>
     </div>
 </footer>
 </html>
